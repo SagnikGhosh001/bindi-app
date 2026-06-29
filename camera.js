@@ -50,7 +50,4 @@ const processCamera = async () => {
     } finally {
         isProcessing = false;
     }
-
-    console.log(handLandmarks);
-    console.log(faceLandmarks);
 };
